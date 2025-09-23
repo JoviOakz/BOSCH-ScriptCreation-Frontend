@@ -5,7 +5,7 @@ import { routes } from './routes/Routes'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={routes} />
-  </StrictMode>,
+    <StrictMode>
+        <RouterProvider router={routes} />
+    </StrictMode>
 )

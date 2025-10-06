@@ -1,6 +1,6 @@
 export default function Dropdown({ children }) {
     return (
-        <select className='w-[60%] bg-white rounded-xl p-4 shadow-xl'>
+        <select className='w-[94%] bg-white rounded-lg p-4 shadow-xl'>
             <option value='dropdown_text' hidden>{children}</option>
             <option value='1'>1</option>
             <option value='2'>2</option>

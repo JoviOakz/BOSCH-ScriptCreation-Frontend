@@ -15,13 +15,13 @@ export default function App() {
                     </div>
 
                     <div className='flex flex-col w-1/6'>
-                        <span className='ml-3'>Modo</span>
-                        <Dropdown>Escolha um modo</Dropdown>
+                        <span className='ml-3'>Tipo de roteiro</span>
+                        <Dropdown>Selecione um tipo de roteiro</Dropdown>
                     </div>
 
                     <div className='flex flex-col w-1/6'>
-                        <span className='ml-3'>Modo</span>
-                        <Dropdown>Escolha um modo</Dropdown>
+                        <span className='ml-3'>Chave de modificação</span>
+                        <Dropdown>Digite sua chave de modificação...</Dropdown>
                     </div>
                 </div>
 
